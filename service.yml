@@ -1,0 +1,32 @@
+id:                 "TestCI"
+displayName:        Test ci-connect plugin
+description:        This Service does whatever
+
+webhook:            https://wdfv41004052d.emea.global.corp.sap:8443/jenkins/ci-connect-webhook/
+homepage:           https://wdfv41004052d.emea.global.corp.sap:8443/jenkins/
+documentationUrl:   https://github.wdf.sap.corp/MyOrg/MyServiceDefinitionRepository/blob/branch/README.md
+configRequired:     false
+responsibles:
+                    - C5320516
+                  
+
+activatableBy:      
+activatableOn:      
+
+accessKeys:         ['mySecret', 'otherSecret']
+
+publicKey: |
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAy4iSMZa9g4ZiOE1BbmF6
+vXHjBUM7WtRThyxS6RIwN/te9Le+01TaUtva7Y9hW6bYK5bc/aSDlQODUMPL65kX
+bpI/24AGbHYIGUHx17gTkuIz7sNCoHEp97U9gGolZ7jHfR0c2KnL8R+dxT42rb8T
+DqB71stu7mBYokFXSO8eiFiIsQpVY1XMHF2kHt9cg4ERRYFSYQcpeAmLkkeSyYsF
+iiCNA9ddofsK4muwynVx3NesSf+8Gu2l3B63Pew4GM19Fio3eFlthwmUQM81uHgp
+BA7D1cHmuxJnJ3fOtHjm6Zl8RCxe1fCsDVokjX23SyA5MylRMihGyTkzpGoKpyvD
+CYGCOvrkjRIAyn+24Kmc+ijTqHG6e5d6QiFqsscFdUyvP9NUGUwWRW4JbGJVDfx9
+8PM8UyBylckmkk7S5QqAvKwuc1Lc0fQ37dQYzjNwDkT0Sqs8+njibLnMm0yIu2Rw
+58OS2WBxOUFyeUa0dkYt/3ON2XvmROSP92D3cZ2fjo7HVKYDtU8IrlZoQ/ppaFgg
+5iOQFtXzHB+gj9Vd4AcB+WnHYRGOcUZ4IxtlAIOnkNs2tW7KGX9KdsLrKunIdoao
+ww+8fS1cCuVKxB3Kb3IYEOy9EamUX2t6Sq9bGnhjrGbkgJnEDaoEWUc7B/GZ2ZPl
+JKJE7PLduooboW1swVhJpr0CAwEAAQ==
+-----END PUBLIC KEY-----
